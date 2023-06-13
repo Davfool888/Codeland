@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="813.0" prefWidth="2477.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6f474bdb" height="359.0" layoutX="628.0" layoutY="6.0" stroke="BLACK" strokeType="INSIDE" width="597.0">
+         <effect>
+            <Lighting diffuseConstant="0.86" specularConstant="0.0">
+               <bumpInput>
+                  <ColorInput paint="BLACK" />
+               </bumpInput>
+               <light>
+                  <Light.Point />
+               </light>
+            </Lighting>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="359.0" layoutX="7.0" layoutY="3.0" stroke="BLACK" strokeType="INSIDE" width="597.0">
+         <effect>
+            <Lighting diffuseConstant="0.86" specularConstant="0.0">
+               <bumpInput>
+                  <ColorInput paint="BLACK" />
+               </bumpInput>
+               <light>
+                  <Light.Point />
+               </light>
+            </Lighting>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="DODGERBLUE" height="242.0" layoutX="40.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="126.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="24.0" layoutX="40.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="126.0" />
+      <Label layoutX="72.0" layoutY="36.0" text="CODELAND" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button alignment="TOP_LEFT" layoutX="52.0" layoutY="91.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Perfil" />
+      <Circle layoutX="150.0" layoutY="104.0" radius="13.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Button alignment="TOP_LEFT" layoutX="52.0" layoutY="134.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Nivel" />
+      <Button alignment="TOP_LEFT" layoutX="53.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Tabla de puntos" />
+      <Button alignment="TOP_LEFT" layoutX="52.0" layoutY="215.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Tienda" />
+      <Button alignment="TOP_LEFT" layoutX="52.0" layoutY="254.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Ayuda" />
+      <Label layoutX="72.0" layoutY="296.0" text="Version 2.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Polygon fill="DODGERBLUE" layoutX="400.0" layoutY="57.0" points="-18.727949142456055, 25.720333099365234, 1.71661376953125E-5, 34.98223876953125, 18.105382919311523, 24.578792572021484, 18.10538101196289, 2.566192865371704, 2.002716064453125E-5, -7.824867248535156, -18.727949142456055, 2.5661919116973877" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="446.0" layoutY="133.0" points="-18.727949142456055, 25.720333099365234, 1.71661376953125E-5, 34.98223876953125, 18.105382919311523, 24.578792572021484, 18.10538101196289, 2.566192865371704, 2.002716064453125E-5, -7.824867248535156, -18.727949142456055, 2.5661919116973877" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="352.0" layoutY="133.0" points="-18.727949142456055, 25.720333099365234, 1.71661376953125E-5, 34.98223876953125, 18.105382919311523, 24.578792572021484, 18.10538101196289, 2.566192865371704, 2.002716064453125E-5, -7.824867248535156, -18.727949142456055, 2.5661919116973877" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="304.0" layoutY="215.0" points="-18.727949142456055, 25.720333099365234, 1.71661376953125E-5, 34.98223876953125, 18.105382919311523, 24.578792572021484, 18.10538101196289, 2.566192865371704, 2.002716064453125E-5, -7.824867248535156, -18.727949142456055, 2.5661919116973877" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="350.0" layoutY="291.0" points="-18.727949142456055, 25.720333099365234, 1.71661376953125E-5, 34.98223876953125, 18.105382919311523, 24.578792572021484, 18.10538101196289, 2.566192865371704, 2.002716064453125E-5, -7.824867248535156, -18.727949142456055, 2.5661919116973877" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="256.0" layoutY="291.0" points="-18.727949142456055, 25.720333099365234, 1.71661376953125E-5, 34.98223876953125, 18.105382919311523, 24.578792572021484, 18.10538101196289, 2.566192865371704, 2.002716064453125E-5, -7.824867248535156, -18.727949142456055, 2.5661919116973877" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="497.0" layoutY="214.0" points="-18.727949142456055, 25.720333099365234, 1.71661376953125E-5, 34.98223876953125, 18.105382919311523, 24.578792572021484, 18.10538101196289, 2.566192865371704, 2.002716064453125E-5, -7.824867248535156, -18.727949142456055, 2.5661919116973877" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="534.0" layoutY="291.0" points="-18.727949142456055, 25.720333099365234, 1.71661376953125E-5, 34.98223876953125, 18.105382919311523, 24.578792572021484, 18.10538101196289, 2.566192865371704, 2.002716064453125E-5, -7.824867248535156, -18.727949142456055, 2.5661919116973877" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="445.0" layoutY="291.0" points="-18.727949142456055, 25.720333099365234, 1.71661376953125E-5, 34.98223876953125, 18.105382919311523, 24.578792572021484, 18.10538101196289, 2.566192865371704, 2.002716064453125E-5, -7.824867248535156, -18.727949142456055, 2.5661919116973877" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="#1fff2a" layoutX="399.0" layoutY="214.0" points="-18.727949142456055, 25.720333099365234, 1.71661376953125E-5, 34.98223876953125, 18.105382919311523, 24.578792572021484, 18.10538101196289, 2.566192865371704, 2.002716064453125E-5, -7.824867248535156, -18.727949142456055, 2.5661919116973877" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="377.0" layoutY="62.0" text="NIVEL 1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="329.0" layoutY="138.0" prefHeight="17.0" prefWidth="51.0" text="NIVEL 2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="420.0" layoutY="138.0" prefHeight="17.0" prefWidth="51.0" text="NIVEL 3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="220.0" prefHeight="17.0" prefWidth="51.0" text="NIVEL 4">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="471.0" layoutY="220.0" prefHeight="17.0" prefWidth="51.0" text="NIVEL 5">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="296.0" prefHeight="17.0" prefWidth="51.0" text="NIVEL 6">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="324.0" layoutY="296.0" prefHeight="17.0" prefWidth="51.0" text="NIVEL 7">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="419.0" layoutY="296.0" prefHeight="17.0" prefWidth="51.0" text="NIVEL 8">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="508.0" layoutY="296.0" prefHeight="17.0" prefWidth="51.0" text="NIVEL 9">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="382.0" layoutY="219.0" prefHeight="17.0" prefWidth="35.0" text="RETO">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#ff6c1f" height="30.0" layoutX="487.0" layoutY="14.0" stroke="TRANSPARENT" strokeType="INSIDE" width="93.0" />
+      <Polygon fill="#22ff1f" layoutX="508.0" layoutY="39.0" scaleX="0.2" scaleY="0.2" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+      <Label layoutX="534.0" layoutY="14.0" text="148" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#dd0c21db" height="24.0" layoutX="711.0" layoutY="284.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#dd0c21db" height="24.0" layoutX="815.0" layoutY="284.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#dd0c21db" height="24.0" layoutX="927.0" layoutY="284.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#dd0c21db" height="24.0" layoutX="1031.0" layoutY="284.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#1fff3d" height="24.0" layoutX="778.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#1fff3d" height="24.0" layoutX="882.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#1fff3d" height="24.0" layoutX="994.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="74.0" />
+      <Line endX="200.0" fill="WHITE" layoutX="976.0" layoutY="240.0" startX="-300.0" stroke="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0af216db" height="359.0" layoutX="7.0" layoutY="371.0" stroke="BLACK" strokeType="INSIDE" width="597.0">
+         <effect>
+            <Lighting diffuseConstant="0.86" specularConstant="0.0">
+               <bumpInput>
+                  <ColorInput paint="BLACK" />
+               </bumpInput>
+               <light>
+                  <Light.Point />
+               </light>
+            </Lighting>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6f474bdb" height="359.0" layoutX="629.0" layoutY="371.0" stroke="BLACK" strokeType="INSIDE" width="597.0">
+         <effect>
+            <Lighting diffuseConstant="0.86" specularConstant="0.0">
+               <bumpInput>
+                  <ColorInput paint="BLACK" />
+               </bumpInput>
+               <light>
+                  <Light.Point />
+               </light>
+            </Lighting>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#854d4d00" height="41.0" layoutX="639.0" layoutY="32.0" strokeType="INSIDE" strokeWidth="5.0" width="44.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7763158082962036" green="0.10782163590192795" blue="0.38636085391044617" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.9333333373069763" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke></Rectangle>
+      <Label layoutX="719.0" layoutY="25.0" prefHeight="75.0" prefWidth="401.0" text="Escoje el numero correcto para completar la operecion matematica" textAlignment="JUSTIFY" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="808.0" layoutY="192.0" text="10">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="915.0" layoutY="192.0" text="&gt;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="1024.0" layoutY="192.0" text="8">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="745.0" layoutY="288.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="849.0" layoutY="288.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="961.0" layoutY="288.0" text="6" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="1065.0" layoutY="288.0" text="9" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#0c9cf0db" height="24.0" layoutX="204.0" layoutY="490.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#0af216db" height="24.0" layoutX="308.0" layoutY="490.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#0c9cf0db" height="24.0" layoutX="204.0" layoutY="539.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#0af216db" height="24.0" layoutX="308.0" layoutY="539.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#0c9cf0db" height="24.0" layoutX="204.0" layoutY="585.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#0af216db" height="24.0" layoutX="308.0" layoutY="585.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#0c9cf0db" height="24.0" layoutX="204.0" layoutY="634.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#0af216db" height="24.0" layoutX="308.0" layoutY="634.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Label layoutX="92.0" layoutY="383.0" prefHeight="75.0" prefWidth="401.0" text="Junta todas las parejas de numeros primos consecutivos" textAlignment="JUSTIFY" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#854d4d00" height="41.0" layoutX="18.0" layoutY="386.0" strokeType="INSIDE" strokeWidth="5.0" width="44.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7763158082962036" green="0.10782163590192795" blue="0.38636085391044617" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.9333333373069763" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Rectangle>
+      <Label layoutX="238.0" layoutY="494.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="231.0" layoutY="543.0" text="17" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="238.0" layoutY="589.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="238.0" layoutY="638.0" text="7" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="335.0" layoutY="494.0" text="19" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="342.0" layoutY="543.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="335.0" layoutY="589.0" text="11" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="342.0" layoutY="638.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Ellipse fill="#00f2ff55" layoutX="859.0" layoutY="552.0" radiusX="108.0" radiusY="85.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Ellipse fill="#ff21de6c" layoutX="993.0" layoutY="552.0" radiusX="108.0" radiusY="85.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Label layoutX="719.0" layoutY="386.0" prefHeight="41.0" prefWidth="409.0" text="Ordena los numeros segun su cojunto" textAlignment="JUSTIFY" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#854d4d00" height="41.0" layoutX="654.0" layoutY="386.0" strokeType="INSIDE" strokeWidth="5.0" width="44.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7763158082962036" green="0.10782163590192795" blue="0.38636085391044617" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.9333333373069763" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Rectangle>
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#b1f00cdb" height="24.0" layoutX="646.0" layoutY="490.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#b1f00cdb" height="24.0" layoutX="646.0" layoutY="539.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#b1f00cdb" height="24.0" layoutX="646.0" layoutY="585.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#b1f00cdb" height="24.0" layoutX="646.0" layoutY="634.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Label layoutX="673.0" layoutY="494.0" text="1.2" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="665.0" layoutY="542.0" text="-17.5" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="589.0" text="-3" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="671.0" layoutY="638.0" text="7.1" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#f2b500db" height="24.0" layoutX="1140.0" layoutY="490.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#f2b500db" height="24.0" layoutX="1140.0" layoutY="539.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#f2b500db" height="24.0" layoutX="1140.0" layoutY="585.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#f2b500db" height="24.0" layoutX="1140.0" layoutY="634.0" stroke="#8c1818a2" strokeType="INSIDE" width="74.0" />
+      <Label layoutX="1165.0" layoutY="494.0" text="20.1" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="1174.0" layoutY="543.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="1162.0" layoutY="589.0" text="-22.1" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="1170.0" layoutY="638.0" text="7.3" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
